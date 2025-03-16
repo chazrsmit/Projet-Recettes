@@ -133,6 +133,20 @@ footer {
     display: flex !important;
     align-content: center;
     justify-content: center;
-    padding-top: 80px !important;
+    padding-top: 50px !important;
 }
 
+.container-accueil {
+    display: flex !important;
+    align-content: center;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+#retour {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-decoration: none;
+    color:#000000;
+    font-weight: 200;
+    font-size: 13px;
+}
