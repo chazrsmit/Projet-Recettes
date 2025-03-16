@@ -23,7 +23,6 @@ h1 {
     justify-content: center;
     gap: 20px; /* Space between buttons */
     margin-top: 10px; /* Space from the title */
-    margin-bottom: 5px;
 }
 
 .boutn {
@@ -121,4 +120,8 @@ h1 {
     margin: 0 0.7em; 
     /* pour ajouter l'espace entre les cards */
 }
+
+.carousel-inner {
+    padding: 1em;
+  }
 
