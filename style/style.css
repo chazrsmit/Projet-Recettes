@@ -64,6 +64,7 @@ h1 {
     color: #000000 !important;
     box-shadow: #000000 3px 4px;
     padding: 5px !important;
+    margin-top: 4px !important;
     font-family: monospace !important;
 }
 
@@ -78,6 +79,7 @@ h1 {
     color: #000000 !important;
     box-shadow: #000000 3px 4px;
     padding: 5px !important;
+    margin-top: 4px !important;
     background-color: #ffff9f !important;
     font-family: monospace !important;
 }
@@ -90,7 +92,7 @@ h1 {
 }
 
 .card-body {
-    height: 250px !important;
+    height: 255px !important;
 }
 
 .card-title {
