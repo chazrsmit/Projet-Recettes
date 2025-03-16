@@ -91,3 +91,8 @@ h1 {
 .card-title {
     padding-top: 10px !important;
 }
+
+.cards-wrapper {
+    display:flex;
+    justify-content: center;
+}
