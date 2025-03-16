@@ -26,7 +26,7 @@ h1 {
 }
 
 .boutn {
-    width: 120px;
+    width: 130px;
     height: 40px;
     background-color: #ffffff !important;
     border-style: solid !important;
@@ -39,7 +39,7 @@ h1 {
 }
 
 .boutn:hover {
-    width: 120px;
+    width: 130px;
     height: 40px;
     background-color: #ffffff !important;
     border-style: solid !important;
@@ -124,4 +124,6 @@ h1 {
 .carousel-inner {
     padding: 1em;
   }
+
+ 
 
