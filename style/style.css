@@ -22,7 +22,7 @@ h1 {
 .btn-container {
     display: flex;
     justify-content: center;
-    gap: 20px; /* Space between buttons */
+    gap: 25px !important; /* Space between buttons */
     margin-top: 10px; /* Space from the title */
 }
 
