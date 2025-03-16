@@ -25,7 +25,7 @@ h1 {
     margin-top: 10px; /* Space from the title */
 }
 
-.btn {
+.boutn {
     width: 120px;
     height: 40px;
     background-color: #ffffff !important;
@@ -37,7 +37,7 @@ h1 {
     box-shadow: #000000 3px 4px;
 }
 
-.btn:hover {
+.boutn:hover {
     width: 120px;
     height: 40px;
     background-color: #ffffff !important;
@@ -48,4 +48,38 @@ h1 {
     text-decoration-color: #000000;
     box-shadow: #000000 3px 4px;
     background-color: #ffff9f !important;
+}
+
+.btn {
+    width: 160px;
+    height: 40px;
+    background-color: #ffffff !important;
+    border-style: solid !important;
+    border-radius: 100px !important;
+    border-width: 2px !important;
+    border-color: #000000 !important;
+    color: #000000 !important;
+    box-shadow: #000000 3px 4px;
+    padding: 5px !important;
+}
+
+.btn:hover {
+    width: 160px;
+    height: 40px;
+    background-color: #ffffff !important;
+    border-style: solid !important;
+    border-radius: 100px !important;
+    border-width: 2px !important;
+    border-color: #000000 !important;
+    color: #000000 !important;
+    box-shadow: #000000 3px 4px;
+    padding: 5px !important;
+    background-color: #ffff9f !important;
+}
+
+.div1{
+    display:flex;
+    align-content: center;
+    justify-content: center;
+    margin-top: 50px;
 }
