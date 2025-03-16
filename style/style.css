@@ -17,3 +17,22 @@ h1 {
     text-transform: uppercase;
     text-shadow: #000000 3px 4px;
 }
+
+.btn-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px; /* Space between buttons */
+    margin-top: 10px; /* Space from the title */
+}
+
+.btn {
+    width: 120px;
+    height: 40px;
+    background-color: #ffffff !important;
+    border-style: solid !important;
+    border-radius: 100px !important;
+    border-width: 2px !important;
+    border-color: #000000 !important;
+    text-decoration-color: #000000;
+    box-shadow: #000000 3px 4px;
+}
