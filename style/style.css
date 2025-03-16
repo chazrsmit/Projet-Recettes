@@ -129,18 +129,25 @@ footer p {
     color: #4e4e4e;
 }
 
-footer {
+#footer-1 {
     display: flex !important;
     align-content: center;
     justify-content: center;
-    padding-top: 50px !important;
+    margin-top: 75px !important;
+}
+
+#footer-2 {
+    display: flex !important;
+    align-content: center;
+    justify-content: center;
+    margin-top: 35px !important;
 }
 
 .container-accueil {
     display: flex !important;
     align-content: center;
     justify-content: center;
-    margin-top: 15px;
+    margin-top: 20px !important;
 }
 
 #retour {
