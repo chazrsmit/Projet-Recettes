@@ -122,5 +122,17 @@ h1 {
     /* pour ajouter l'espace entre les cards */
 }
 
- 
+footer p {
+    font-family: monospace;
+    font-size: 12px;
+    font-weight: 100;
+    color: #4e4e4e;
+}
+
+footer {
+    display: flex !important;
+    align-content: center;
+    justify-content: center;
+    padding-top: 80px !important;
+}
 
