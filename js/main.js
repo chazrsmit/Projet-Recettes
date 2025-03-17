@@ -1,14 +1,24 @@
 let card = document.querySelectorAll(".card")
 
-// Box shadow card 1
+//card 1
 let card1 = card[0]
 console.log(card1)
 
-card1.addEventListener("mouseover", () => {
+card1.addEventListener("click", () => {
     card1.style.boxShadow = "rgb(119, 119, 119) 4px 4px 2px"
 })
 
+
+card1.addEventListener("dblclick", () => {
+    card1.remove()
+})
+
+card1.addEventListener("mouseover", () => {
+    card1.style.background = "#ffff9f"
+})
+
 card1.addEventListener("mouseout", () => {
+    card1.style.background = "#ffffff"
     card1.style.boxShadow = "none"
 })
 
