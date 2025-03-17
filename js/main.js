@@ -139,33 +139,29 @@ card6.addEventListener("mouseout", () => {
 
 // footer
 
-let footer = document.querySelector("footer")
-console.log(footer)
+// // input index
 
-let p1 = footer.querySelector("footer > p")
+let footer = document.querySelectorAll("footer")
+
+let footer1bis = footer[0]
+
+let p1 = footer1bis.querySelector("p")
 
 console.log(p1)
 
 p1.remove()
 
-
-// let footer2 = document.createElement("footer")
-// footer.appendChild(footer2)
-
-
-// // input
-
 let input = document.createElement("input")
-footer.appendChild(input)
+footer1bis.appendChild(input)
 
 input.style.fontFamily = "monospace"
 input.style.fontSize = "12px"
 input.style.width = "165px"
 
-// // bouton newsletter
+// // bouton newsletter index
 
 let btnNews = document.createElement("button")
-footer.appendChild(btnNews)
+footer1bis.appendChild(btnNews)
 
 btnNews.textContent="Newsletter"
 
@@ -188,5 +184,53 @@ btnNews.addEventListener("mouseout", () => {
 })
 
 btnNews.addEventListener("click", () =>{
+    alert("Bienvenue dans notre contact list !")
+})
+
+// // input index
+
+
+
+let footer2bis = footer[1]
+
+let p2 = footer2bis.querySelector("footer > p")
+
+console.log(p2)
+
+p2.remove()
+
+let input2 = document.createElement("input")
+footer2bis.appendChild(input2)
+
+input2.style.fontFamily = "monospace"
+input2.style.fontSize = "12px"
+input2.style.width = "165px"
+
+// // bouton newsletter index
+
+let btnNews2 = document.createElement("button")
+footer2bis.appendChild(btnNews2)
+
+btnNews2.textContent="Newsletter"
+
+btnNews2.style.borderStyle = "solid"
+btnNews2.style.borderWidth = "1px"
+btnNews2.style.borderColor = "#000"
+btnNews2.style.borderRadius = "50px"
+btnNews2.style.fontFamily = "monospace"
+btnNews2.style.fontSize = "13px"
+btnNews2.style.paddingLeft = "8px"
+btnNews2.style.paddingRight = "8px"
+btnNews2.style.marginLeft = "8px"
+
+btnNews2.addEventListener("mouseover", () => {
+    btnNews2.style.background = "#ffff9f"
+})
+
+btnNews2.addEventListener("mouseout", () => {
+    btnNews2.style.background = "#ffffff"
+})
+
+btnNews2.addEventListener("click", () =>{
     alert("Bienvenue dans notre contact list !")
 })
