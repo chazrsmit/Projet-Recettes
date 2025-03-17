@@ -121,7 +121,7 @@ h1 {
     margin: 0 0.7em; 
     /* pour ajouter l'espace entre les cards */
     margin-bottom: 6px;
-    border:none !important;
+    border: none !important;
 }
 
 footer p {
