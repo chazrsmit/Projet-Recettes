@@ -142,21 +142,61 @@ card6.addEventListener("mouseout", () => {
 let footer = document.querySelector("footer")
 console.log(footer)
 
-
-let footer2 = document.createElement("footer")
-footer.appendChild(footer2)
-
-let input = document.createElement("input")
-footer2.appendChild(input)
-
-input.style.display = "flex"
-input.style.justifyContent = "right"
-input.style.alignContent = "right"
-input.style.float = "right"
-input.style.fontFamily = "monospace"
-input.style.fontSize = "12px"
-
 let pfoot = document.querySelector("footer > p")
 console.log(pfoot)
 
 pfoot.remove()
+
+
+// let footer2 = document.createElement("footer")
+// footer.appendChild(footer2)
+
+
+// // input
+
+let input = document.createElement("input")
+footer.appendChild(input)
+
+input.style.fontFamily = "monospace"
+input.style.fontSize = "12px"
+input.style.width = "165px"
+input.value = "Email d'inscription à la"
+
+// // bouton newsletter
+
+let btnNews = document.createElement("button")
+footer.appendChild(btnNews)
+
+btnNews.textContent="Newsletter"
+
+btnNews.style.borderStyle = "solid"
+btnNews.style.borderWidth = "1px"
+btnNews.style.borderColor = "#000"
+btnNews.style.borderRadius = "50px"
+btnNews.style.fontFamily = "monospace"
+btnNews.style.fontSize = "13px"
+btnNews.style.paddingLeft = "8px"
+btnNews.style.paddingRight = "8px"
+btnNews.style.marginLeft = "8px"
+
+btnNews.addEventListener("mouseover", () => {
+    btnNews.style.background = "#ffff9f"
+})
+
+btnNews.addEventListener("mouseout", () => {
+    btnNews.style.background = "#ffffff"
+})
+
+// supprimer le hover des btn dans les cards
+
+let hover = document.querySelectorAll(".btn")
+console.log(hover)
+
+console.log(hover[0])
+
+for (i =0 ; i <hover.length ; i++) {
+    console.log(hover[i])
+    hover[i].addEventListener("mouseover", () => {
+        hover[i].style.background="#ffffff"
+    })
+}
