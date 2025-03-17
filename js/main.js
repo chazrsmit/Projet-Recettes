@@ -143,16 +143,16 @@ card6.addEventListener("mouseout", () => {
 
 let footer = document.querySelectorAll("footer")
 
-let footer1bis = footer[0]
+let footer1 = footer[0]
 
-let p1 = footer1bis.querySelector("p")
+let p1 = footer1.querySelector("p")
 
 console.log(p1)
 
 p1.remove()
 
 let input = document.createElement("input")
-footer1bis.appendChild(input)
+footer1.appendChild(input)
 
 input.style.fontFamily = "monospace"
 input.style.fontSize = "12px"
@@ -161,7 +161,7 @@ input.style.width = "165px"
 // // bouton newsletter index
 
 let btnNews = document.createElement("button")
-footer1bis.appendChild(btnNews)
+footer1.appendChild(btnNews)
 
 btnNews.textContent="Newsletter"
 
@@ -189,18 +189,16 @@ btnNews.addEventListener("click", () =>{
 
 // // input index
 
+let footer2 = footer[1]
 
-
-let footer2bis = footer[1]
-
-let p2 = footer2bis.querySelector("footer > p")
+let p2 = footer2.querySelector("p")
 
 console.log(p2)
 
 p2.remove()
 
 let input2 = document.createElement("input")
-footer2bis.appendChild(input2)
+footer2.appendChild(input2)
 
 input2.style.fontFamily = "monospace"
 input2.style.fontSize = "12px"
@@ -209,7 +207,7 @@ input2.style.width = "165px"
 // // bouton newsletter index
 
 let btnNews2 = document.createElement("button")
-footer2bis.appendChild(btnNews2)
+footer2.appendChild(btnNews2)
 
 btnNews2.textContent="Newsletter"
 
