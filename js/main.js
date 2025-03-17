@@ -114,15 +114,25 @@ card5.addEventListener("mouseout", () => {
     card5.style.boxShadow = "none"
 })
 
-// Box shadow card 6
+// card 6
 
 let card6 = card[5]
 console.log(card6)
 
-card6.addEventListener("mouseover", () => {
+card6.addEventListener("click", () => {
     card6.style.boxShadow = "rgb(119, 119, 119) 4px 4px 2px"
 })
 
+
+card6.addEventListener("dblclick", () => {
+    card6.remove()
+})
+
+card6.addEventListener("mouseover", () => {
+    card6.style.background = "#ffff9f"
+})
+
 card6.addEventListener("mouseout", () => {
+    card6.style.background = "#ffffff"
     card6.style.boxShadow = "none"
 })
