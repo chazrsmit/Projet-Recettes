@@ -141,9 +141,11 @@ card6.addEventListener("mouseout", () => {
 
 // // input index
 
-let footer = document.querySelectorAll("footer")
+// let footer = document.querySelectorAll("footer")
+// let footer 1 = footer[0]
+// let footer 2 = footer[1]
 
-let footer1 = footer[0]
+let footer1 = document.querySelector("#footer-1")
 
 let p1 = footer1.querySelector("p")
 
@@ -189,7 +191,7 @@ btnNews.addEventListener("click", () =>{
 
 // // input index
 
-let footer2 = footer[1]
+let footer2 = document.querySelector("#footer-2")
 
 let p2 = footer2.querySelector("p")
 
