@@ -142,10 +142,11 @@ card6.addEventListener("mouseout", () => {
 let footer = document.querySelector("footer")
 console.log(footer)
 
-let pfoot = document.querySelector("footer > p")
-console.log(pfoot)
+let p1 = footer.querySelector("footer > p")
 
-pfoot.remove()
+console.log(p1)
+
+p1.remove()
 
 
 // let footer2 = document.createElement("footer")
@@ -187,5 +188,5 @@ btnNews.addEventListener("mouseout", () => {
 })
 
 btnNews.addEventListener("click", () =>{
-    alert("Bienvenue dans notre contact liste !")
+    alert("Bienvenue dans notre contact list !")
 })
