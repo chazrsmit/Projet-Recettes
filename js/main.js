@@ -136,3 +136,27 @@ card6.addEventListener("mouseout", () => {
     card6.style.background = "#ffffff"
     card6.style.boxShadow = "none"
 })
+
+// footer
+
+let footer = document.querySelector("footer")
+console.log(footer)
+
+
+let footer2 = document.createElement("footer")
+footer.appendChild(footer2)
+
+let input = document.createElement("input")
+footer2.appendChild(input)
+
+input.style.display = "flex"
+input.style.justifyContent = "right"
+input.style.alignContent = "right"
+input.style.float = "right"
+input.style.fontFamily = "monospace"
+input.style.fontSize = "12px"
+
+let pfoot = document.querySelector("footer > p")
+console.log(pfoot)
+
+pfoot.remove()
