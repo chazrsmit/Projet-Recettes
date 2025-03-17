@@ -75,7 +75,7 @@ btnNews.addEventListener("click", () =>{
     alert("Bienvenue dans notre contact list !")
 })
 
-// // input index
+// // input pages veggie & non-veggie
 
 let footer2 = document.querySelector("#footer-2")
 
@@ -85,14 +85,14 @@ console.log(p2)
 
 p2.remove()
 
-let input2 = document.createElement("input")
+let input2 = document.createElement("input2")
 footer2.appendChild(input2)
 
 input2.style.fontFamily = "monospace"
 input2.style.fontSize = "12px"
 input2.style.width = "165px"
 
-// // bouton newsletter index
+// // bouton newsletter veggie & non-veggie
 
 let btnNews2 = document.createElement("button")
 footer2.appendChild(btnNews2)
