@@ -160,7 +160,6 @@ footer.appendChild(input)
 input.style.fontFamily = "monospace"
 input.style.fontSize = "12px"
 input.style.width = "165px"
-input.value = "Email d'inscription à la"
 
 // // bouton newsletter
 
@@ -187,16 +186,6 @@ btnNews.addEventListener("mouseout", () => {
     btnNews.style.background = "#ffffff"
 })
 
-// supprimer le hover des btn dans les cards
-
-let hover = document.querySelectorAll(".btn")
-console.log(hover)
-
-console.log(hover[0])
-
-for (i =0 ; i <hover.length ; i++) {
-    console.log(hover[i])
-    hover[i].addEventListener("mouseover", () => {
-        hover[i].style.background="#ffffff"
-    })
-}
+btnNews.addEventListener("click", () =>{
+    alert("Bienvenue dans notre contact liste !")
+})
