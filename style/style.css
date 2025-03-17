@@ -120,6 +120,7 @@ h1 {
 .card {
     margin: 0 0.7em; 
     /* pour ajouter l'espace entre les cards */
+    margin-bottom: 6px;
 }
 
 footer p {
@@ -156,4 +157,8 @@ footer p {
     color:#000000;
     font-weight: 200;
     font-size: 13px;
+}
+
+.carousel-control-prev-icon, .carousel-control-next-icon {
+    transform: translateY(50%);
 }
