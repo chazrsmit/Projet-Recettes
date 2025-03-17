@@ -46,6 +46,7 @@ footer1.appendChild(input)
 input.style.fontFamily = "monospace"
 input.style.fontSize = "12px"
 input.style.width = "165px"
+input.placeholder = "Email"
 
 // // bouton newsletter index
 
@@ -84,6 +85,7 @@ footer2.appendChild(input2)
 input2.style.fontFamily = "monospace"
 input2.style.fontSize = "12px"
 input2.style.width = "165px"
+input2.placeholder = "Email"
 
 // // bouton newsletter veggie & non-veggie
 
