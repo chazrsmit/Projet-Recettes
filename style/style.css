@@ -98,7 +98,7 @@ h1 {
 }
 
 .card-body {
-    height: 255px !important;
+    min-height: 255px !important;
 }
 
 .card-title {
