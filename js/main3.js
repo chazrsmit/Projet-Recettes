@@ -32,8 +32,6 @@ let footer = document.querySelectorAll("footer")
 let footer1 = footer[0]
 let footer2 = footer[1]
 
-footer1.style.paddingBottom = "5px"
-
 // enlever le p sans passer par le hmtl
 for (i=0 ; i < footer.length ; i ++) {
     let foot = footer[i]
